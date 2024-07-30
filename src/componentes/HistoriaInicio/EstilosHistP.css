@@ -1,0 +1,19 @@
+.containerInfo{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mojito', sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.imgHistI img{
+    width: 600px;
+
+    border-radius: 16px;
+}
+
+.textHistoria{
+    padding: 20px;
+}

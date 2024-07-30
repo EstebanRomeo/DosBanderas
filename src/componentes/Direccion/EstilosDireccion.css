@@ -1,0 +1,18 @@
+.formDirec{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+}
+.formDirec input{
+    gap: 200px;
+}
+    
+.containerForm{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

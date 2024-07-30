@@ -1,0 +1,56 @@
+.containerNot {
+    display: flex;
+    width: 100%;
+  }
+
+.containerNot img{
+    width: 33%;
+}
+
+/* ImageSection.css */
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden; /* Evita que las imágenes se salgan del contenedor */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  position: relative;
+  margin: 0 10px;
+  overflow: hidden;
+}
+
+img {
+  width: 600px;
+  height: auto;
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+li:hover img {
+  filter: blur(0); /* Quitar el desenfoque */
+  transform: scale(1.1);
+}
+
+li:hover .overlay {
+  transform: translateY(0);
+}
